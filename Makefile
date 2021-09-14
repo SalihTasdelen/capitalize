@@ -15,14 +15,14 @@ test:
 
 new-venv:
 	( \
-	virtualenv ./dist/venv; \
-	source ./dist/venv/bin/activate; \
+	virtualenv ./venv; \
+	source ./venv/bin/activate; \
 	python3 -m pip install ./dist/*.tar.gz; \
 	deactivate; \
 	)
 
 clean-venv:
-	rm -rf ./dist/venv
+	rm -rf ./venv
 
 help:
 	@echo "--> clean-pyc:"
