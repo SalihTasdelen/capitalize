@@ -1,5 +1,5 @@
 import unittest
-from capitalizer import capit
+from capitalize import capit
 
 class CapitTaster(unittest.TestCase):
 	

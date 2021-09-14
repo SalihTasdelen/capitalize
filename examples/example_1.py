@@ -1,3 +1,3 @@
-from capitalizer import capit
+from capitalize import capit
 
 print(capit("Howdy!"))
